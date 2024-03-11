@@ -40,25 +40,31 @@ The Simplified ERP System is a web application built with React, designed to man
    ```bash
    git clone https://github.com/your-username/simplified-erp-system.git
 Navigate to the project directory:
-
+   ```bash
   cd simplified-erp-system
-
+```
 #Install dependencies:
 
-bash
+```bash
   npm install
-  
+```  
 #Running the Application:
 
-bash
+```bash
   npm start
-
+```
 Visit http://localhost:3000 in your browser.
 
 
 Folder Structure
+
   src/: Source code for the React application.
+  
   components/: React components for different pages.
+  
   data/: Mock data for products and orders.
+  
   styles/: CSS files for styling components.
+  
   public/: Public assets and the main HTML file.
+  
