@@ -1,0 +1,23 @@
+.calendar-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .calendar-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .calendar-buttons button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calendar-buttons button:hover {
+    background-color: #2980b9;
+  }
+  
