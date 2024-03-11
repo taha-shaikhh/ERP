@@ -38,10 +38,10 @@ The Simplified ERP System is a web application built with React, designed to man
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simplified-erp-system.git
+   git clone https://github.com/taha-shaikhh/ERP.git
 Navigate to the project directory:
    ```bash
-  cd simplified-erp-system
+  cd ERP
 ```
 #Install dependencies:
 
