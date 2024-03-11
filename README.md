@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# ERP System with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+The Simplified ERP System is a web application built with React, designed to manage basic business operations efficiently. It includes a dashboard for an overview of key metrics, product management for handling product listings, and order management for viewing and handling orders. An optional feature includes an orders calendar view for visualizing orders based on expected delivery dates.
 
-In the project directory, you can run:
+## Technology Stack
 
-### `npm start`
+- React: JavaScript library for building user interfaces
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Dashboard:**
+   - Display key metrics (e.g., total number of products, orders).
+   - Quick navigation links to Products and Orders management pages.
 
-### `npm test`
+2. **Products Management:**
+   - List products with details (name, category, price, stock).
+   - Add, edit, and delete products.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Orders Management:**
+   - Display a list of orders with details (order ID, customer name, order date, status).
+   - (Optional) View order details, update order status, and delete orders.
 
-### `npm run build`
+4. **Orders Calendar View (Optional):**
+   - Calendar interface displaying orders based on expected delivery dates.
+   - Click on a date to view all orders due for delivery that day.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js: [Install Node.js](https://nodejs.org/)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository or Download as zip:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/taha-shaikhh/ERP.git
+Navigate to the project directory:
+   ```bash
+  cd ERP
+```
+### Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  npm install
+```  
+### Running the Application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm start
+```
+Visit http://localhost:3000 in your browser.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Folder Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  src/: Source code for the React application.
+  
+     components/: React components for different pages.
+     
+     styles/: CSS files for styling components.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
