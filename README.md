@@ -7,7 +7,6 @@ The Simplified ERP System is a web application built with React, designed to man
 ## Technology Stack
 
 - React: JavaScript library for building user interfaces
-- React Router: Declarative routing for React applications
 
 ## Features
 
@@ -35,7 +34,7 @@ The Simplified ERP System is a web application built with React, designed to man
 
 ### Installation
 
-1. Clone the repository:
+1. Clone the repository or Download as zip:
 
    ```bash
    git clone https://github.com/taha-shaikhh/ERP.git
@@ -43,12 +42,12 @@ Navigate to the project directory:
    ```bash
   cd ERP
 ```
-#Install dependencies:
+### Install dependencies:
 
 ```bash
   npm install
 ```  
-#Running the Application:
+### Running the Application:
 
 ```bash
   npm start
@@ -60,11 +59,8 @@ Folder Structure
 
   src/: Source code for the React application.
   
-  components/: React components for different pages.
-  
-  data/: Mock data for products and orders.
-  
-  styles/: CSS files for styling components.
-  
-  public/: Public assets and the main HTML file.
+     components/: React components for different pages.
+     
+     styles/: CSS files for styling components.
+
   
